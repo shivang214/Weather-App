@@ -1,58 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+    <title>Weather app</title>
+    <head>
+        <link rel="stylesheet" href ="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-  <head>
-   
+    <body>
 
-    
-    <link  rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <form id="search-form">
+            <input type="search"
+            placeholder="Enter City Name"
+            id="search-input"
+            required
+            autocomplete="off"
+            />
+            <br>
+        </br>
+        <button id="search-button">Search</button>
 
-    <title>WEATHER REPORT</title>
-  </head>
-  <body>
-    <form id="search-form">
-        <input type="="search
-        placeholder="Enter the City Name"
-        id="search-input" 
-        required
-        autocomplete="off"
-        />
-    <br>
-    </br>    
-     <button id="search-button">Search</button>
-
-
+        </form>
 
 
-    </form>
+        <main id="app-container">
+            <div id="location">
+                <p>-------</p>
+            </div>
+                <div id="temp">
+                    <img id="temp-icon" src="./icons/sun.svg" alt="">
+                    <p><span id="temp-value">-----</span> <span id="temp-unit" >&#176c</span> </p>
+                </div>
 
-    <main id="app-container">
-        <div id="location">
-            <p>------</p>
+                <div id="climate">
+                    <p>------</p>
+                </div>
 
 
 
 
-        </div>
 
-        <div id="temp">
-            <img id="temp-icon" src="rainy-1.svg" alt="">
-            <p><span id="temp-value">------</span><span id="temp-unit">&#176c</span></p>
-        </div>
-        <div id="climate">
-            <P>-----</P>
-        </div>
-    </main>
+        </main>
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js">
+
+</script>
+    </body>
+
 </html>
